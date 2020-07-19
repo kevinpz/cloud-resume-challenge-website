@@ -1,5 +1,5 @@
 steps:
 # Copy the website content to a GS bucket
-- name: 'gcr.io/cloud-builders/gcloud'
+- name: 'gcr.io/cloud-builders/gsutil'
   id: Sync the website content
   args: ['gsutil', 'rsync', '-d', '-r', 'website/', 'gs://coffeetime-dev-cloudresume']

@@ -2,4 +2,4 @@ steps:
 # Copy the website content to a GS bucket
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk:latest'
   id: Sync the website content
-  args: ['gsutil', 'rsync', '-d', '-r', 'website/', 'gs://coffeetime-dev-cloudresume']
+  args: ['gsutil', '-m', 'rsync', '-d', '-r', 'website/', 'gs://coffeetime-dev-cloudresume']

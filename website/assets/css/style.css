@@ -341,7 +341,7 @@ section {
 }
 
 .about .cert-badge {
-    width: 17%;
+    width: 20%;
     height: auto;
 }
 
@@ -351,6 +351,15 @@ section {
 .facts {
   padding-bottom: 30px;
 }
+
+.facts .gcp-infra {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /*--------------------------------------------------------------
 # Skills
